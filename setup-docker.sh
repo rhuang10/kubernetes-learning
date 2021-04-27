@@ -2,7 +2,7 @@
 # script that runs 
 # https://kubernetes.io/docs/setup/production-environment/container-runtime
 
-pacman -S --needed vim cni-plugins conntrack-tools socat ebtables ethtool bash-completion
+pacman -S --needed vim docker cni-plugins conntrack-tools socat ebtables ethtool bash-completion
 
 # notice that only verified versions of Docker may be installed
 # verify the documentation to check if a more recent version is available
