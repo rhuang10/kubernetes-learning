@@ -28,8 +28,8 @@ cat >> /etc/hosts << EOF
 {
    192.168.0.93 control.vondedata.com control
    192.168.0.99 worker99.vondedata.com worker99
-   192.168.0.100 control.vondedata.com worker100
-   192.168.0.101 control.vondedata.com woker101
+   192.168.0.100 worker100.vondedata.com worker100
+   192.168.0.101 woker101.vondedata.com woker101
 }
 EOF
 
